@@ -1,11 +1,18 @@
-# 涉及到时间复杂度度
-# 群里讨论的一则相亲者微信号码线索是：两个素数之乘积是7140229933。
+/***
 
-# 这里用C++实现。
+涉及到时间复杂度度
+群里讨论的一则相亲者微信号码线索是：两个素数之乘积是7140229933。
+
+这里用C++实现。
+
+***/
+
 #include<stdio.h>
 #include<math.h>
 #define N 10000001
 #include <iostream>
+
+
 using namespace std;
 bool prime[N];
 
